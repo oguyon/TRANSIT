@@ -4,11 +4,11 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/596968680753486e8146b764644a604c)](https://www.codacy.com/app/oguyon/Cfits?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=oguyon/Cfits&amp;utm_campaign=Badge_Grade)
 
 
-# TRANSIT : Panoptes Project 
+# TRANSIT : Transit Light Curve Analysis
 
 ## Overview
 
-Set of image processing tools and functions accessible through a command line interface (CLI). Holds images in RAM, with image stream support (shared memory with low-latency IPC support).
+Transit light curve analysis.
 
 Written in C, optimized for performance.
 
@@ -21,6 +21,7 @@ Executable launches a command line interface (CLI). Type "help" in the CLI to ge
 The FALCON package follows the standard git clone steps and GNU build process :
 
 	git clone https://github.com/transitLC/TRANSIT
+	cd TRANSIT
 	git submodule init
 	git submodule update
 	autoreconf -i
